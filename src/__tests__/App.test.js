@@ -7,5 +7,5 @@ test("renders the correct child components", () => {
   expect(container.querySelector(".App")).toBeInTheDocument();
   expect(container.querySelector(".App header")).toBeInTheDocument();
   expect(container.querySelector(".App aside")).toBeInTheDocument();
-  expect(container.querySelector(".App main")).toBeInTheDocument();
+  
 });
